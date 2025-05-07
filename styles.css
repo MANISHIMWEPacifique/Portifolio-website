@@ -1,5 +1,5 @@
     html {
-      font-size: 16px; 
+      font-size: 14px; 
     }
 
     :root {
@@ -60,7 +60,7 @@
     }
     
     .logo {
-      font-size: 1.6rem; 
+      font-size: 1.5rem; 
       font-weight: 700;
       color: var(--text-color);
       text-decoration: none;
@@ -75,7 +75,7 @@
       color: var(--text-color);
       text-decoration: none;
       font-weight: 500;
-      font-size: 1.3rem; 
+      font-size: 1.2rem; 
       position: relative;
       transition: all 0.25s ease-in-out;
     }
@@ -152,7 +152,7 @@
     
     /* Desc Section */
     .Desc {
-      height: 100vh;
+      height: 80vh;
       display: flex;
       align-items: center;
       padding: 0 8rem;
@@ -166,14 +166,14 @@
     }
     
     .Desc h1 {
-      font-size: 4.5rem; 
+      font-size: 3.9rem; 
       margin-bottom: 1rem;
       color: var(--text-color);
       font-weight: 700;
     }
     
     .Desc h2 {
-      font-size: 2.8rem; 
+      font-size: 2.5rem; 
       font-weight: 400;
       margin-bottom: 2rem;
       color: var(--secondary-text-color);
@@ -469,7 +469,7 @@
       padding: 0.8rem 1rem;
       border: 1px solid var(--secondary-text-color);
       border-radius: 4px;
-      font-size: 1.1rem; /* Increased for readability */
+      font-size: 1.1rem; 
       background-color: var(--card-bg);
       color: var(--text-color);
     }
@@ -491,7 +491,7 @@
       border: 2px solid var(--accent-color);
       border-radius: 4px;
       font-weight: 500;
-      font-size: 1.1rem; /* Increased for readability */
+      font-size: 1.1rem; 
       cursor: pointer;
       transition: all 0.25s ease-in-out;
     }
@@ -596,19 +596,18 @@
       }
       
       .Desc h1 {
-        font-size: 3.5rem; /* Increased for mobile prominence */
+        font-size: 3.5rem; 
       }
       
       .Desc h2 {
-        font-size: 2rem; /* Increased for mobile readability */
+        font-size: 2rem; 
       }
       
       .Desc p {
-        font-size: 1.1rem; /* Adjusted for mobile readability */
-      }
+        font-size: 1.1rem; 
       
       .section-title {
-        font-size: 2.5rem; /* Adjusted for mobile */
+        font-size: 2.5rem; 
       }
       
       .projects-grid {
@@ -616,3 +615,4 @@
       }
     }
  
+  }
